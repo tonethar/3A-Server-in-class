@@ -11,7 +11,7 @@ const onRequest = (request, response) => {
     response.end();
   } else {
     response.writeHead(200, { 'Content-Type': 'text/html' });
-    response.write('<html><body><h1>Default Page!!!</h1></body></html>');
+    response.write('<html><body><h1>Default Page!!!</h1></body></html>'
     response.end();
   }
 };
